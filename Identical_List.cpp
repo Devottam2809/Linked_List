@@ -42,7 +42,7 @@ bool check(node *root1,node *root2)
         temp1=temp1->next;
         temp2=temp2->next;
     }
-return true;
+return (temp1 == NULL && temp2 == NULL);
 }
 
 void print_list(node *root)
